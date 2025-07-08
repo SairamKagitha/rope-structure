@@ -1,0 +1,46 @@
+{
+    "name": "rope-structure",
+    "description": "A Rope Data Structure implementation which is used for efficient text editing and used widely in text editors.",
+    "version": "0.0.2",
+    "author": "Sairam Kagitha",
+    "license": "MIT",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "private": false,
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "homepage": "https://github.com/SairamKagitha/rope-structure.git",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SairamKagitha/rope-structure.git"
+    },
+    "readme": "README.md",
+    "bugs": {
+        "url": "https://github.com/SairamKagitha/rope-structure/issues"
+    },
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "test": "bun run test/rope.ts"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "tsup": "^8.5.0"
+    },
+    "peerDependencies": {
+        "typescript": "^5.8.3"
+    },
+    "keywords": [
+        "rope",
+        "rope structure",
+        "rope data structure",
+        "data structure",
+        "text editor",
+        "text editing",
+        "efficient text editing",
+        "text manipulation"
+    ]
+}
